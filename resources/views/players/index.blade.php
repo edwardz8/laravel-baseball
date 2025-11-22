@@ -20,7 +20,7 @@
         .glass-header { background: var(--glass); backdrop-filter: blur(20px); border-bottom: 1px solid var(--border); padding: 1.5rem 0; position: sticky; top: 0; z-index: 10; }
         .search-input { background: rgba(40,40,50,0.9); border: 1px solid var(--border); color: white; border-radius: 16px; padding: 0.75rem 1rem; }
         .search-input:focus { background: rgba(50,50,60,0.95); box-shadow: 0 0 0 3px rgba(255,255,255,0.1); color: white; }
-        .player-card { background: var(--card-bg); backdrop-filter: blur(16px); border: 1px solid var(--border); border-radius: 18px; transition: all 0.4s ease; box-shadow: 0 8px 32px rgba(0,0,0,0.5); }
+        .player-card { background: var(--card-bg); backdrop-filter: blur(16px); border: 1px solid var(--border); transition: all 0.4s ease; box-shadow: 0 8px 32px rgba(0,0,0,0.5); }
         .player-card:hover { transform: translateY(-8px); box-shadow: 0 20px 50px rgba(0,0,0,0.7); border-color: rgba(255,255,255,0.15); }
         .player-initials { height: 120px; display: flex; align-items: center; justify-content: center; font-size: 2.8rem; font-weight: 900; color: white; background: linear-gradient(135deg, #1e1e1e, #333333); }
         .team-logo { width: 36px; height: 36px; object-fit: contain; filter: drop-shadow(0 2px 8px rgba(0,0,0,0.6)); }
