@@ -75,7 +75,7 @@
                                             <strong>Team:</strong>
                                             @if($player->team_display_name)
                                             <span class="text-primary">{{ $player->team_display_name }}</span>
-                                            <small class="text-muted">{{ $player->team_location }}</small>
+                                            <!-- <small class="text-muted">{{ $player->team_location }}</small> -->
                                             @else
                                                 Free Agent
                                             @endif
