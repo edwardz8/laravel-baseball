@@ -12,11 +12,11 @@
             --glass: rgba(20, 20, 25, 0.72);
             --border: rgba(255, 255, 255, 0.08);
             --text: #f0f0f0;
-            --text-muted: #999999;
+            --text-secondary: #e7e7e7ff;
         }
 
         body {
-            background: #0a0a0a;
+            background: #161616ff;
             color: var(--text);
             min-height: 100vh;
             font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
@@ -74,7 +74,7 @@
 
         .tagline {
             font-size: 1.3rem;
-            color: var(--text-muted);
+            color: var(--text-secondary);
             margin: 2rem 0 3rem;
             line-height: 1.7;
             font-weight: 400;
@@ -107,7 +107,7 @@
             gap: 3rem;
             margin-top: 3.5rem;
             font-size: 1.1rem;
-            color: var(--text-muted);
+            color: var(--text-secondary);
         }
 
         .stat-number {
